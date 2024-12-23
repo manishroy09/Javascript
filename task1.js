@@ -18,5 +18,5 @@ let num3=num2;
  num2=num1;
 
 document.write(num3)
-document.write(num2)
+document.write(num2) 
  
