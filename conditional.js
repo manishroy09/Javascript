@@ -52,8 +52,8 @@ let n5=parseInt(prompt("Enter second number:"))
  }
 else{
     document.write("Invalid choice")
-}*/
-
+}
+//nasted if else
 let age=parseInt(prompt("Enter your age : "))
 if(age>=18){
     let n=parseInt(prompt("p 1 for indian "))
@@ -66,6 +66,30 @@ if(age>=18){
 }
 else{
     alert("You are child")
+}*/
+
+let num=parseInt(prompt("Enter choice :"))
+let n2=parseInt(prompt("Enter first number :"))
+let n3=parseInt(prompt("Enter second number:"))
+
+switch(num){
+   case '+':
+      alert(n2+n3)
+      break;
+
+   case '-':
+      alert(n2-n3)
+      break;
+   case '*':
+      alert(n2+n3)
+      break;
+    case '/':
+      alert(n2/n3)
+      break;
+      default:
+         alert()
+
 }
+  
 
 
