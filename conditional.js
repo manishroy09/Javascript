@@ -74,17 +74,17 @@ let n3=parseInt(prompt("Enter second number:"))
 
 switch(num){
    case '+':
-      alert(n2+n3)
+      alert(n2+n3);
       break;
 
    case '-':
-      alert(n2-n3)
+      alert(n2-n3);
       break;
    case '*':
-      alert(n2*n3)
+      alert(n2*n3);
       break;
     case '/':
-      alert(n2/n3)
+      alert(n2/n3);
       break;
       default:
          alert("invalid choise");
