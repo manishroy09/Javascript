@@ -26,15 +26,15 @@
     console.log(num*num*num);
   }
 
- //Q3 for home work write a program to printe square of odd no. from 15 to 1 
-
+ //Q3 write a program to printe square of odd no. from 15 to 1 
+   //for home work
  let a=15;
  while(a>=1){
     if(a%2!=0){
         console.log(a*a);
     }
     a--;
- }*/
+ }
 
  
 
@@ -46,6 +46,12 @@ let a=0;
 while(num!=0){
    num=parseInt(prompt("Enter number again :"));
    a++;
+}*/
+
+// ========================================for loops============================================================================== 
+
+for(let a=10; a>=1; a--){
+   console.log(a);
 }
 
 

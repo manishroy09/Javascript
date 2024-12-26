@@ -68,7 +68,8 @@ else{
     alert("You are child")
 }*/
 
-let num=parseInt(prompt("Enter choice :"))
+
+let num=prompt("Enter choice :")
 let n2=parseInt(prompt("Enter first number :"))
 let n3=parseInt(prompt("Enter second number:"))
 
