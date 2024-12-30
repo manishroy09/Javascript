@@ -101,7 +101,7 @@ function demo(){
    // or
 
    console.log(demo());
-   */
+   
   // with argument and with return valuse
 
   function code(a){
@@ -115,3 +115,26 @@ function demo(){
   else{
     alert("odd")
   }
+
+ //or 
+ 
+ console.log(code(10));
+ */
+
+ //q1. take a no from user find cube then print stars right angal trangle using return vales
+
+
+ function cube(a){
+  return a*a*a;
+ }
+   
+ let b=parseInt(prompt("Enter a number"))
+
+ let c=cube(b);
+
+ for(let r=0; r<=c; r++){
+      for(let s=0; s<=r; s++){
+        document.write("*")
+      }
+      document.write("<br>");
+ }
