@@ -1,8 +1,8 @@
-//Q1 diffrente between parameter and argument (home work)
+//Q1 different between parameter and argument (home work)
 
+// ans-- a parameter is a variable defined in a function or method, while an argument is the value passed to that function or method when it is called
 
-
-
+// for function arguent is work as a input.
 // function is a block of code 0r set of instruction 
 
 // reusability is the property of function 
@@ -11,6 +11,10 @@
 // 1.function declaration
 // 2.function defination
 // 3.function calling 
+// .function is two type  --- 1. is pre defined 2. user defined
+
+// user defined ---
+//1.without argument and no return values
 
 /*
 function add(){
@@ -42,7 +46,8 @@ function Table(){
 Table()
 
 
-// wap to take a input from the user 
+// wap to take a input from the user if no is 11-20 then print no from 1 to that number . if no is 1 to 10 then print no. from 15 to 1;
+
 
 let n1=parseInt(prompt("Enter any number"))
 function count(){
@@ -59,7 +64,7 @@ function count(){
 
 }
 count()
-*/
+
 
 // wap to print sum of all numbers between 1 to 12
 
@@ -71,4 +76,42 @@ function sum(){
     console.log(s);
 }
 sum()
+// date 30th dec 2024
 
+// 1 wap to add two number using type 2 (with argument and no  return values )
+
+function add(a,b){
+    
+    console.log(a+b);
+}
+
+let num1=parseInt(prompt("Enter number one"))
+let num2=parseInt(prompt("Enter number second"))
+add(num1,num2)
+
+
+// without argument and return values
+
+function demo(){
+   return "Manish"
+}
+   let a= demo()
+   console.log(a);
+
+   // or
+
+   console.log(demo());
+   */
+  // with argument and with return valuse
+
+  function code(a){
+    return a*a;
+  }
+
+  let b=code(2)
+  if(b%2==0){
+    alert("even")
+  }
+  else{
+    alert("odd")
+  }
