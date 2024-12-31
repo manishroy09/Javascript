@@ -1,4 +1,4 @@
-//Q1 different between parameter and argument (home work)
+//Q1 differece  between parameter and argument (home work)
 
 // ans-- a parameter is a variable defined in a function or method, while an argument is the value passed to that function or method when it is called
 
@@ -90,7 +90,7 @@ let num2=parseInt(prompt("Enter number second"))
 add(num1,num2)
 
 
-// without argument and return values
+// without argument and return values (type 3)
 
 function demo(){
    return "Manish"
@@ -102,7 +102,8 @@ function demo(){
 
    console.log(demo());
    
-  // with argument and with return valuse
+  // with argument and with return values (type 4)
+  // return value is even or odd 
 
   function code(a){
     return a*a;
@@ -119,22 +120,47 @@ function demo(){
  //or 
  
  console.log(code(10));
- */
+ 
 
- //q1. take a no from user find cube then print stars right angal trangle using return vales
+ //q1. take a no from user find cube then print stars right angal trangle using return vales using type 4 (with argument and with return values  )
 
 
  function cube(a){
   return a*a*a;
+
  }
-   
+    
  let b=parseInt(prompt("Enter a number"))
 
  let c=cube(b);
 
  for(let r=0; r<=c; r++){
       for(let s=0; s<=r; s++){
-        document.write("*")
+        document.write(r)
       }
       document.write("<br>");
+ }*/ 
+
+ // input from user if n is 123 then give the addition of digit of number using function with argument and no return values
+
+ function demo(a){
+  let sum=0;
+  let r=0;
+ 
+   while(a!=0){
+     r=a%10;
+     sum=parseInt(sum+r);
+     a=a/10;
+     
+   }
+   console.log(sum);
+
  }
+    
+ let b=parseInt(prompt("Enter a number"))
+
+ demo(b);
+
+ 
+
+
