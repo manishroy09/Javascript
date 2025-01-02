@@ -13,7 +13,7 @@ let ctarget = document.getElementsByClassName("contant2")
 console.log(ctarget);
 
 ctarget[1].innerHTML = " <i> yes changed </i> "
-ctarget[0].textconten = " happy new year "
+ctarget[0].textContent = " happy new year "
 
 
 // for  targat tag 
@@ -23,6 +23,6 @@ let para = document.getElementsByTagName("p")
 console.log(para);
 
 para[3].innerHTML = " <i> yes changed </i> "
-ctarget[0].textconten = " happy new year "
+ctarget[0].textcontent = "  yesterday is happy new year "
 
 
