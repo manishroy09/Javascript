@@ -141,7 +141,8 @@ function demo(){
       document.write("<br>");
  }*/ 
 
- // input from user if n is 123 then give the addition of digit of number using function with argument and no return values
+ // input from user if n has digit more then one then give the addition of digit of number using function with argument and no return values
+ 
 
  function demo(a){
   let sum=0;
