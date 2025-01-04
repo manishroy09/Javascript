@@ -64,13 +64,11 @@ Q1 differece  between parameter and argument (home work)
  . getElementById-- select only one node
  . getElementsByClass-- store node list  in array form 
 
- . innerHTML -- change contant and apply element also
- . textcontant --- change contanta not use tags 
+ . innerHTML -- change contant and apply tags also
+ . textcontant --- change contant and not use tags 
 .home work --- 
 Q1. what is hoisting
-  In JavaScript, hoisting is a behavior in which variable declarations, function declarations, and certain other constructs appear to be "moved" to the top of their containing scope during the compilation phase, before the code is executed. This means you can use variables and functions before they are declared in the code.
-
-However, it's important to note that only declarations are hoisted, not initializations. 
+  Hoisting is JavaScript's default behavior of moving all declarations to the top of the current scope (to the top of the current script or the current function).
 
  or   
 
