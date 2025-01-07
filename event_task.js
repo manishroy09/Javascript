@@ -43,5 +43,5 @@ function red(color){
 // using css change in html file by taking events
 function dark(){
     let para = document.getElementById('para')
-    para.classList.add('drk')
+    para.classList.add('drk')  // add class from css directly to js
 }

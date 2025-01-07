@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+   
+  <style>
+    .con1, .con2{
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        margin: 20px;
+        
+    }
+    .con1 i{
+       background-color: blueviolet;
+       color: white;
+       font-size: 30px;
+       padding: 20px;
+       border-radius: 50%;
+
+    }
+    .con2 i{
+       background-color: rgb(25, 11, 82);
+       color: white;
+       font-size: 30px;
+       padding:20px;
+       border-radius: 50%;
+    }
+    .final{
+        height: 100px;
+        width: 100%;
+        background-color: aqua;
+        color: black;
+    }
+
+
+  </style>
+<body>
+    
+       <div class="con1" >
+        <i onclick="low()" class="fa-solid fa-chair"></i>
+        <i onclick="low()" class="fa-solid fa-chair"></i>
+        <i onclick="low()" class="fa-solid fa-chair"></i>
+        <i onclick="low()" class="fa-solid fa-chair"></i>
+       </div>
+       <div class="con2" >
+        <i  onclick="high()"class="fa-solid fa-chair"></i>
+        <i  onclick="high()"class="fa-solid fa-chair"></i>
+        <i  onclick="high()"class="fa-solid fa-chair"></i>
+        <i  onclick="high()"class="fa-solid fa-chair"></i>
+       </div>
+
+       <div class="final">
+         <h1>here will be you amout fo tickes booking </h1>
+       </div>
+
+       <script src="book.js"></script>
+    
+</body>
+</html>

@@ -87,7 +87,13 @@ Q2. ws6 and ecma full form
   - ECMA is an international standards organization responsible for developing and maintaining technical standards, including the specification for JavaScript, known as ECMAScript.
 
 
-
+// events
+      onclick="fun()" === on click here where we use event  we will move to fun() 
+      // we can also use argument to use other method of function 
+     ondblclick="fun()"===Double click
+     onmouseenter="fun()"===Mous enter
+     onmouseleave="fun()"====Leave mouse
+     oncontextmenu="fun()"===== on right click
 
 
 
