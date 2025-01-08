@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    .line1,.center1,.line2,.line3,.center3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        padding: 20px;
+
+    }
+    .line1 i{
+        background-color: rgba(73, 12, 64, 0.808);
+        color: white;
+        border-radius: 50%;
+        font-size: 30px;
+        padding:30px ;
+    }
+    
+    .center1 i{
+        background-color: rgba(125, 38, 32, 0.808);
+        color: white;
+        border-radius: 50%;
+        font-size: 30px;
+        padding:30px ;
+    }
+    
+    .line2 i{
+        background-color: rgba(52, 52, 13, 0.808);
+        color: white;
+        border-radius: 50%;
+        font-size: 30px;
+        padding:30px ;
+    }
+    
+    .line3 i{
+        background-color: rgba(14, 44, 26, 0.808);
+        color: white;
+        border-radius: 50%;
+        font-size: 30px;
+        padding:30px ;
+    }
+    
+    .center3 i{
+        background-color: rgba(17, 43, 44, 0.808);
+        color: white;
+        border-radius: 50%;
+        font-size: 30px;
+        padding:30px ;
+    }
+    .icon{
+        background-color: rgba(241, 18, 81, 0.805);
+
+    }
+    .final{
+        height: 200px;
+        width: auto;
+        background-color: aquamarine;
+        
+    }
+</style>
+<body>
+    <div class="container">
+    <div class="line1">
+        
+        <i onclick="line1()" class="fa-solid fa-chair"></i>
+        <div class="center1">
+            <i onclick="center1()" class="fa-solid fa-chair"></i>
+            <i onclick="center1()" class="fa-solid fa-chair"></i>
+            <i onclick="center1()" class="fa-solid fa-chair"></i>
+            <i onclick="center1()" class="fa-solid fa-chair"></i>
+        </div>
+        <i onclick="line1()" class="fa-solid fa-chair"></i>
+
+    </div>
+    <div class="line2">
+        <i onclick="line2()" class="fa-solid fa-chair"></i>
+        <i onclick="line2()" class="fa-solid fa-chair"></i>
+        <i onclick="line2()" class="fa-solid fa-chair"></i>
+        <i onclick="line2()" class="fa-solid fa-chair"></i>
+        <i onclick="line2()" class="fa-solid fa-chair"></i>
+        <i onclick="line2()" class="fa-solid fa-chair"></i>
+    </div>
+    <div class="line3">
+        <i onclick="line3()" class="fa-solid fa-chair"></i>
+       <div class="center3">
+        <i onclick="center3()" class="fa-solid fa-chair"></i>
+        <i onclick="center3()" class="fa-solid fa-chair"></i>
+        <i onclick="center3()" class="fa-solid fa-chair"></i>
+        <i onclick="center3()" class="fa-solid fa-chair"></i>
+       </div>
+       <i onclick="line3()" class="fa-solid fa-chair"></i>
+
+    </div>
+    </div>
+
+    <div class="final">
+        <h1 id="final">Here you total amount will be appare</h1>
+    </div>
+
+    <script src="book1.js"></script>
+</body>
+</html>
