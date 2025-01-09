@@ -7,35 +7,45 @@
 </head>
 
 <style>
-    
-    .form{
-        border: 2px solid black;
-        background-color: aqua;
+     .form{
+       
         
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
+        background-color: aqua;
+     }
+    
+    .formin{
+        border: 2px solid black;
+        background-color: pink;
         padding: 20px;
+        width: 50% ;
+        height: auto;
     }
 </style>
 
 <body>
-    <div class="form">
+    <div class="form"></div>
     <form action="" onsubmit="return validate()">
+        <div class="formin">
         <label for="">Name</label>
         <input type="text" name="" id="name" placeholder="Enter your name"><br><br>
 
         <label for="">Age</label>
-        <input type="text" name="" id="age" placeholder="Enter your age"> <br>
-        <span id="errorage">error age</span>
+        <input type="text" name="" id="age" placeholder="Enter your age"> <br><br>
+        <span id="errorage"></span><br><br>
+        <label for="">contact</label>
+        <input type="text" name="" id="contact" placeholder="Enter contact number"><br><br>
+
+        <label for="">email</label>
+        <input type="text" name="" id="email" placeholder="Enter email">
+        
 
         <br><br>
 
         <input type="submit" name="" id="">
+    </div>
     </form>
 
-</div>
+   </div>
     <script src="formvalidation.js"></script>
 
 

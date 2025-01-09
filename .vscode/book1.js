@@ -2,7 +2,7 @@ function line1(){
     let a = parseInt(prompt('how much sets do you want to buy .'))
     
     let amount = document.getElementById('final')
-    amount.innerHTML =" <h1> Your total amout will be = (a*400) <h1>"
+    amount.innerHTML =" <h1> Your total amout will be =  <h1>"(a*400)
     document.body.style.backgroundColor = 'rgba(73, 12, 64, 0.808)'
     let icon = document.getElementsByTagName('i')
     icon.classList.add('icon')
