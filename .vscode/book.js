@@ -4,6 +4,7 @@ function low(){
      let final = document.getElementById('final')
      
      final.innerHTML =  a*200;
+     final.textContent = "Total amount is " +a*200
 }
 
 

@@ -7,23 +7,34 @@
 </head>
 
 <style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
      .form{
-       
+       height: 100vh;
+       display: flex;
+       justify-content: center;
+       align-items: center;
         
-        background-color: aqua;
+        background-color: rgba(0, 255, 255, 0.718);
      }
     
     .formin{
-        border: 2px solid black;
-        background-color: pink;
+        border: 5px solid rgba(0, 0, 0, 0.663);
+        background-color: url(png.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
         padding: 20px;
-        width: 50% ;
+        width:  300px;
         height: auto;
+        
+
     }
 </style>
 
 <body>
-    <div class="form"></div>
+    <div class="form">
     <form action="" onsubmit="return validate()">
         <div class="formin">
         <label for="">Name</label>
@@ -36,13 +47,20 @@
         <input type="text" name="" id="contact" placeholder="Enter contact number"><br><br>
 
         <label for="">email</label>
-        <input type="text" name="" id="email" placeholder="Enter email">
+        <input type="text" name="" id="email" placeholder="Enter email"><br><br>
+
+        <label for="">password</label>
+        <input type="text" name="" id="password" placeholder="Enter password"><br><br>
+        
+        
+        <label for="">confirm password</label>
+        <input type="text" name="" id="cpassword" placeholder="Enter confirm password">
         
 
         <br><br>
 
         <input type="submit" name="" id="">
-    </div>
+        </div>
     </form>
 
    </div>

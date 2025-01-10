@@ -6,6 +6,8 @@ function validate(){
     let age = document.getElementById('age').value
     let contact = document.getElementById('contact').value
     let email = document.getElementById('email').value
+    let pass = document.getElementById('password').value
+    let cpass = document.getElementById('cpassword').value
     if(name == ""){
         alert('please fill the name')
         document.getElementById('name').focus()
@@ -50,6 +52,26 @@ function validate(){
     else if(!(email.includes('@'))){
         alert('please enter valid email')
         document.getElementById('email').focus()
+        return false
+    }
+    else if( pass == ""){
+        alert('please enter password')
+        document.getElementById('password').focus()
+        return false
+    }
+    else if( !(pass.match(/[~!@#$%^&*]/)) ){
+        alert('please include special character')
+        document.getElementById('password').focus()
+        return false
+    }
+    else if( cpass == ""){
+        alert('please enter confirm password')
+        document.getElementById('cpassword').focus()
+        return false
+    }
+    else if( cpass != pass ){
+        alert('Password mismatch')
+        document.getElementById('cpassword').focus()
         return false
     }
 
