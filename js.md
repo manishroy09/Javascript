@@ -25,12 +25,20 @@
 
 
   ->turnary 
-  -conditional
-
+  -conditional statem
+  
 
   // use while loop is where terminating values is not known 
   // use for loop is where terminating values is known
   // use do while loop is where we should run program is atleast one times 
+
+  / loops -- 
+  1.do while
+  2.while
+  3.fro
+  4.for in
+  5.for of
+  6.for each
 
 
 // function 
@@ -96,6 +104,12 @@ Q2. ws6 and ecma full form
      oncontextmenu="fun()"===== on right click
 
 
+// 22nd jan 2025
+.queryselector - use css selecting properties
+-- select first node only
+-- use to select node where we will note have to use indexing 
+
+// attritutes -- behaviour of tags or relation 
 
 
 
