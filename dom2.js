@@ -11,7 +11,7 @@ bd.setAttribute('bgcolor', 'red' )
 
 
 // .setAttribute take two argument one is attribute and second is values 
-// setAttribute is use to  
+// setAttribute is use link styling in the element inserted 
 head.setAttribute('align' , 'center')
 
 let name = document.getElementById('head2')

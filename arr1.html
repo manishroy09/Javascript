@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h2{
+            background: linear-gradient(to left , black , red);
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    
+ <h2>Array concept with javascript</h2>
+    <script>
+        let ar = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25]
+        
+        for(let val of ar ){
+            if(val%2!=0){
+                document.write(" ");
+                document.write(val);
+            }
+          
+        }
+    
+        console.log(ar)
+
+
+   let arr = []
+
+    for(let i=0; i<15; i++){
+        arr[i] = parseInt(prompt('enter a number'));
+
+    }
+    let sum=0;
+    for( let val of arr){
+        sum=sum+val;
+    }
+    
+    document.write('sum of all input :'+sum );
+   
+
+
+        // wap to print odd numbers btw 25 to 1 in an array  
+        // input from user and store in array and print the sum or that
+    </script>
+</body>
+</html>

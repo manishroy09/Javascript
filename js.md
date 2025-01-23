@@ -109,7 +109,14 @@ Q2. ws6 and ecma full form
 -- select first node only
 -- use to select node where we will note have to use indexing 
 
-// attritutes -- behaviour of tags or relation 
+// attritutes -- behaviour of tags or additional properties
+
+// 23rd jan 2025
+.Array--- it is a collection of multiple type of data in javascript . 
+. it is denoted by square bracket
+. it is in on ordered (indexing-- positinig of data)
+. for of loop - take one by one element from array.
+
 
 
 
