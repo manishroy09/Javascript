@@ -118,6 +118,16 @@ Q2. ws6 and ecma full form
 . for of loop - take one by one element from array.
 
 
+// some array function are --
+1. push
+2. pop
+3. unshift
+4. shift
+5. slice
+6. splice - use to insert or delete element inside the array at any position
+ 
+
+
 
 
 
