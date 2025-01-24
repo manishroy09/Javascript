@@ -119,11 +119,12 @@ Q2. ws6 and ecma full form
 
 
 // some array function are --
-1. push
-2. pop
-3. unshift
-4. shift
-5. slice
+1. push-- insert data at last position of array 
+2. pop- remove data from last position of array
+3. unshift - insert data at first position of array 
+4. shift- delete data from first position of array
+5. slice- select data from the array at any position 
+  -- take two argument 1. startin index(included) 2. last index(excluded) 
 6. splice - use to insert or delete element inside the array at any position
  
 
