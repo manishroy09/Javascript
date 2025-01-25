@@ -126,7 +126,13 @@ Q2. ws6 and ecma full form
 5. slice- select data from the array at any position 
   -- take two argument 1. startin index(included) 2. last index(excluded) 
 6. splice - use to insert or delete element inside the array at any position
- 
+  --- it take 3 argument if we have to add element -- 1. position (index where wanted to insert) ,2.no of element wanted to delete , 3. inserting element
+  --- it take 2 argument if we have to delete -- 1. position (index where wanted to insert) ,2.no of element wanted to delete 
+  --- we can perform both delete and insert together (use 3 argument)
+
+  // Destructring of array -- access of data from element using variable at the place of indexing 
+
+  // sprade(...) operator 
 
 
 
