@@ -4,28 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .form{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           height: 100vh;
+          background-image: url(png.jpeg);
+          background-repeat: no-repeat;
+          background-size: cover;
+            
+        }
+        form{
+            padding: 20px;
+            background: linear-gradient( to left, black, red);
+        }
+    </style>
 </head>
 <body>
+    <div class="form">
  <form action="" onsubmit="return fun()">
     <label for="name">Name</label>
-    <input type="text" name="name" id="name" placeholder="Enter name">
+    <input type="text" name="name" id="name" placeholder="Enter name"><br><br>
 
 
     <label for="age">Age</label>
-    <input type="number" name="age" id="age" placeholder="Enter age">
+    <input type="number" name="age" id="age" placeholder="Enter age"><br><br>
 
     <label for="dob">Date of birth</label>
-    <input type="date" name="dob" id="dob" placeholder="Enter date of birth">
+    <input type="date" name="dob" id="dob" placeholder="Enter date of birth"><br><br>
 
     <label for="phone">Phone number</label>
-     <input type="number" name="number" id="number" placeholder="number">  
+     <input type="number" name="number" id="number" placeholder="number">  <br><br>
      
      <label for="address">address</label>
-     <input type="text" name="address" id="address" placeholder="Enter Your address">
+     <input type="text" name="address" id="address" placeholder="Enter Your address"><br><br>
     
      <input type="submit" name="" id="">
 
     </form>
+
+</div>
 
      <script src="formtask.js"></script>
 </body>

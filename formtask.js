@@ -9,7 +9,7 @@ let ob = {
     address : document.querySelector('#address').value
 }
 
-console.log(ob.name, ob.age, ob.dob, ob.phone, ob.address);
+console.log(ob.name, ob.age,"\n", ob.dob, ob.phone, ob.address);
 
 return false;
 
