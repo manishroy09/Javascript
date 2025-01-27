@@ -132,7 +132,12 @@ Q2. ws6 and ecma full form
 
   // Destructring of array -- access of data from element using variable at the place of indexing 
 
-  // sprade(...) operator 
+  // spread(...) operator -- use to merge element of two array 
+  --  it will use only element of the array .  
+
+  // object -- datatype , use to store multiple value
+  {},unordered , key values pair
+  
 
 
 

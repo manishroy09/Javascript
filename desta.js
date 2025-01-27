@@ -1,3 +1,5 @@
+
+
 // destructing of array 
 let [name,age,city,course] = ["Hiresh", 23, "bhopal","FSD"]
 console.log(name,age);
