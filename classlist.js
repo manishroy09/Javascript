@@ -8,9 +8,10 @@ function rem(){
     head.classList.remove('dark')
 }
 
+let head1 = document.getElementById('head')
 function both(){
-    let head = document.getElementById('head')
+    
     document.body.classList.toggle('dark')
 
-    head.classList.toggle('dark')
+    head1.classList.toggle('dark')
 }

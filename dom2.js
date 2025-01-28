@@ -7,7 +7,7 @@ head.textContent = "Hi I'm developer ...!!!"
 
 let bd = document.body 
 bd.append(head) // .append is used to insert child inside body of html
-bd.setAttribute('bgcolor', 'red' )
+bd.setAttribute('bgcolor', 'red', )
 
 
 // .setAttribute take two argument one is attribute and second is values 

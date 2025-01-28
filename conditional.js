@@ -87,7 +87,7 @@ switch(num){
     case '/':
       alert(n2/n3);
       break;
-      default:
+   default:
          alert("invalid choise");
 
 }

@@ -40,7 +40,7 @@ function validate(){
         return false
     }
     else if( contact.length>10 || contact.length<10){
-        alert('Enter valid number .. with 10 digit')
+        alert('Enter valid number , with 10 digit')
         document.getElementById('contact').style.border = "2px solid red"
         return false
     }

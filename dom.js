@@ -7,7 +7,7 @@ let head = document.getElementById("head")
  document.write(" helllo from js ")
 
 // for target class 
-// return nod list of array formate 
+// return nod list in array formate 
 
 let ctarget = document.getElementsByClassName("contant2")
 console.log(ctarget);
@@ -15,6 +15,7 @@ console.log(ctarget);
 ctarget[1].innerHTML = " <i> yes changed </i> "
 ctarget[0].textContent = " happy new year "
 
+ctarget[0].textcontent = "  yesterday is happy new year "
 
 // for  targat tag 
 
@@ -23,6 +24,6 @@ let para = document.getElementsByTagName("p")
 console.log(para);
 
 para[3].innerHTML = " <i> yes changed </i> "
-ctarget[0].textcontent = "  yesterday is happy new year "
+
 
 

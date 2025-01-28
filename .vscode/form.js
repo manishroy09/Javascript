@@ -4,7 +4,7 @@ function formdata(){
     let num2 = parseInt(document.getElementById('num2').value)
 
     let output = document.getElementById('ans')
-    output.innerHTML = num1+num2
+    output.innerHTML = "Sum of the number is :  " +(num1+num2)
     return false // to stop form submission
 }
 

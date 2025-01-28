@@ -4,11 +4,6 @@
 
 
 
-
-
-
-
-
 //21st dec 2024
 //operators 
   3 types
@@ -130,13 +125,15 @@ Q2. ws6 and ecma full form
   --- it take 2 argument if we have to delete -- 1. position (index where wanted to insert) ,2.no of element wanted to delete 
   --- we can perform both delete and insert together (use 3 argument)
 
+  
+
   // Destructring of array -- access of data from element using variable at the place of indexing 
 
   // spread(...) operator -- use to merge element of two array 
   --  it will use only element of the array .  
 
   // object -- datatype , use to store multiple value
-  {},unordered , key values pair
+   show by - {}, unordered , Store in key values pair
   
 
 

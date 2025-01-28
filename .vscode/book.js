@@ -3,7 +3,7 @@ function low(){
      let a = parseInt(prompt("who much set do you want? "))
      let final = document.getElementById('final')
      
-     final.innerHTML =  a*200;
+     
      final.textContent = "Total amount is " +a*200
 }
 
@@ -13,7 +13,7 @@ function high(){
      let a = parseInt(prompt("who much set do you want? "))
      let final = document.getElementById('final')
       
-      final.innerHTML = a*280
+     final.textContent = "Total amount is " +a*100
      
 }
 

@@ -3,7 +3,7 @@
 //area of circle
 
 let r=parseFloat(prompt("Enter radius of circle"))
-console.log(r*3.14*r)
+console.log(r*3.14*r)// Math.PI*Math.POW(r,2)
 
 // to squar of a number
 let n=parseInt(prompt("Enter any number"))

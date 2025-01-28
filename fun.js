@@ -2,7 +2,7 @@
 
 // ans-- a parameter is a variable defined in a function or method, while an argument is the value passed to that function or method when it is called
 
-// for function arguent is work as a input.
+// for function argument is work as a input.
 // function is a block of code 0r set of instruction 
 
 // reusability is the property of function 
