@@ -6,7 +6,7 @@ console.log(name,age);
 
 // spread operator
 
-let ar1=[1,2,3,4,]
+let ar1=[1,2,3,4]
 let ar2=[6,7,8,9]
 
 let ar3 = [...ar1, ...ar2]
