@@ -20,3 +20,5 @@ let ob = {
 for(let ky in ob){
     console.log(ob[ky]);
 }
+
+

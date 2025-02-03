@@ -7,6 +7,7 @@ let ob = {
     age : 21,
     city : "Bihar"
 }
+console.log(ob)
 
 console.log(ob.name, ob.age, ob.city);
 
