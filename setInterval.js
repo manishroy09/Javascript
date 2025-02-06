@@ -1,9 +1,10 @@
 
 //  let interval = setInterval(()=>{document.write("I am here"),document.write("<br>")},1000)
 var st =0;
+let count = document.getElementById('count')
 function start(){
  var c =0;
- let count = document.getElementById('count')
+ 
  st = setInterval(()=>{
     count.innerHTML = c++
  },1000)
@@ -12,5 +13,11 @@ function start(){
 function stop(){
     clearInterval(st);
 }
+
+function reset(){
+  
+    count.innerHTML = 0;
+}
+
 
 // Q1. reset button that will 
