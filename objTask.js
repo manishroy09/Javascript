@@ -1,16 +1,15 @@
-let obj = {};
+var obj = {};
 
 
-function submit(){
+function fun(){
 
-   
      obj = {
         id : document.querySelector('#id').value,
         name : document.querySelector('#name').value,
         age : document.querySelector('#age').value,
         contact : document.querySelector('#contact').value
     } 
-    
+
     return false;
   
 }

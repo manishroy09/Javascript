@@ -1,8 +1,9 @@
 // callback function 
 
-  function fun(add(){
-
-  });
+//   function fun(add(){
+    
+//   });
+  
 
 
 // map function

@@ -12,3 +12,5 @@ function start(){
 function stop(){
     clearInterval(st);
 }
+
+// Q1. reset button that will 
