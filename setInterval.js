@@ -15,7 +15,7 @@ function stop(){
 }
 
 function reset(){
-  
+    clearInterval(st);
     count.innerHTML = 0;
 }
 
