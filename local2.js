@@ -20,8 +20,8 @@ function loginform(){
         loginpassword : document.querySelector('#loginpass').value
     }
 
-    if(data.email != logindata.loginemail || data.password != logindata.loginpassword){
-        alert("user not found");
-        return false;
-    }
+   if(data.email != logindata.loginemail || data.password != logindata.loginpassword){
+    alert("user not found")
+    return false
+   }
 }
