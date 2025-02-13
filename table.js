@@ -16,7 +16,3 @@ async function datafatching() {
 datafatching();
 
 
-//Q1. what is eventbubbling. 
-
-
-//Q2. what is event deligation .

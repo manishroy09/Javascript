@@ -136,8 +136,11 @@ Q2. ws6 and ecma full form
    show by - {}, unordered , Store in key values pair
   
 
+//Q1. what is eventbubbling. 
+-- it is a process when event is happen on an element , then it first handle child and then parent then ancester of that .
 
-
+//Q2. what is event deligation .
+-- it is a technique of dom to use one event listner on parent at the place of taking event listner on multiple child.
 
 
 
