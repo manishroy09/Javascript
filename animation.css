@@ -1,0 +1,10 @@
+.main{
+    display: flex;
+    justify-content: space-around;
+}
+.ch1,.ch2{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    margin: 10px;
+}
